@@ -1,0 +1,79 @@
+#image {
+    background-image: url(home.jpg);
+    background-repeat: no-repeat;
+    margin-top:0px;
+    padding-top:0px;
+    height:100%;
+    width:70%;
+}
+
+ p {
+    padding-right: 200px;
+} 
+
+h1 {
+    text-align: left;
+    padding-top:100px;
+    padding-left:140px;
+    font-size: 50px;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+#message-el {
+    font-style:italic;
+}
+
+
+
+#dealer {
+    margin-top:40px;
+}
+
+button {
+    float:left;
+    color: #016f32;
+    background: goldenrod;
+    height:60px;
+    width:150px;
+    margin-left:140px;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-weight:bold;
+    border:none;
+    border-radius: 2px;
+    margin-bottom: 4px;
+}
+
+button:hover {
+    color:white;
+}
+
+#flex-container-player {
+    display: flex;
+    flex-direction: row;
+  }
+
+#flex-container-dealer {
+    display: flex;
+    flex-direction: row;
+  }
+.card {
+    text-align: left;
+    font-size: 30px;
+    color: white;
+    margin-left:15px;
+    padding-left: 5px;
+    padding-top:5px;
+    padding-right:50px;
+    margin-top:5px;
+    margin-bottom: 0px;
+    background: goldenrod;
+    width:60px;
+    height:190px;
+    border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px;
+    box-shadow: 0 4px 8px 0 #b59d18, 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  }
+
+
+

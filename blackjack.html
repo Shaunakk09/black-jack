@@ -1,0 +1,29 @@
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="blackjack.css">
+    </head>
+    <body style="background: #04331b;">
+        <div id="image" style="float:left;">
+            <h1>BLACK JACK</h1>
+            <button id="startgame" onclick="startgame()"> START GAME </button>
+            <button id="restart-button" onclick="restart()">RESTART GAME </button>
+            <button id="hit-button" onclick="hit()" style="margin-left:140px;">Hit!</button>
+            <button id="stay-button" onclick="stand()" style="margin-left:5px;">Stay</button><br><br><br><br>
+            <p id="message-el" style="color:white;margin-left:140px;font-size:30px;">Welcome</p>
+        </div>
+
+        <div style="float:right;width:30%;height:70%;display:inline;color:white;font-size:20px;font-style:italic;margin-top:0px;">
+            
+            <p >You:</p>
+            <p id="sum-you"  >sum</p>
+            <p id="cards-you" >cards</p>
+            <div id="flex-container-player"></div>
+          
+            <p >Dealer:</p>
+            <p id="sum-dealer" >sum</p>
+            <p id="cards-dealer">cards</p>
+            <div id="flex-container-dealer"></div>
+        </div>
+        <script src="blackjack.js"></script>
+    </body>
+</html>
